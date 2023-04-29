@@ -1,0 +1,413 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.header{
+    position:sticky;
+    top:0;
+}
+
+.small-screen{
+    display: none;
+}
+li a{
+    text-decoration: none;
+    color:unset;
+}
+.main-full-width{
+    width:100%;
+}
+
+.main-div{
+    max-width:1320px;
+    margin:0 auto;
+    padding:50px 30px!important;
+}
+
+.header .main-div{
+    padding:20px 30px!important;
+}
+
+#header{
+    padding: 0px 30px;
+
+}
+
+.main-full-width.header{
+    background-color: #122033;
+}
+
+
+
+.header-ul{
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header ul li:hover{
+    color:orange;
+}
+#home{
+    background-color:white;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.home{
+padding:150px 0px;
+text-align:center;
+border-bottom:1px solid #122033;
+}
+
+
+.home .designation{
+    padding-top:30px;
+}
+
+.home span{
+    color:#122033;
+    font-weight:bold;
+}
+
+.description{
+    padding-top:30px;
+}
+
+.img-div{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    padding:50px 20px;
+}
+
+.img-div img{
+   width:90px;
+   height:90px;
+   border:3px solid white;
+   border-radius: 50%;
+ 
+}
+
+.img-div img:hover{
+    border:3px solid #122033;
+
+}
+
+#about,#footer{
+    background-color: #122033;
+}
+
+.main-div.about{
+    /* padding:50px 0px; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-left-div{
+   margin-right:80px;
+}
+
+.about-right-div{
+    width:60%;
+}
+.about-left-div img{
+    width:180px;
+    height:180px;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-left-div img:hover{
+    border:4px solid white;
+}
+.about-me-heading{
+color:white;
+
+}
+
+.about-right-div .description{
+color:#7e848c;
+}
+
+#education,#experience{
+    margin:50px 0;
+    
+}
+.main-div.education,.main-div.experience,.main-div.skills,.main-div.footer,.main-div.projects{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom:1px solid #122033;
+}
+
+.resume-right-side-div,.footer-right-div{
+    width:70%;
+}
+
+.resume-left-side-div p{
+    text-align: center;
+}
+.resume-left-side-div p span{
+    border-bottom:3px solid orange;
+}
+
+.resume-left-side-div{
+    width:30%;
+}
+
+
+.resume-right-side-div p{
+    margin-bottom:10px;
+}
+
+.resume-right-side-div .institue-name,.resume-right-side-div .marks,.resume-right-side-div .duration{
+    color:#7e848c;
+}
+.resume-right-side-div .box-div{
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+margin-right:10px;
+padding:20px;
+margin-bottom:30px;
+border:2px solid transparent;
+}
+
+.resume-right-side-div .box-div:hover{
+
+border-image: linear-gradient( #860052 , #1c724a);
+border-image-slice: 1;
+}
+
+.designation,.project-details{
+    color: #7e848c;
+}
+.project-details li{
+    list-style-type: decimal;
+    margin-left:50px;
+    padding-bottom:10px;
+}
+.projects .project-details a{
+    color:orange!important;
+    word-break: break-all;
+    text-decoration: none;
+}
+
+
+
+progress::-webkit-progress-bar{
+    background-color:#727984;
+}
+
+progress::-webkit-progress-value{
+    background-color:orange;
+}
+
+.progressbar{
+    width:80%;
+    height:35px;
+    border-radius: 50%;
+}
+
+.skills-progress-div {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:40px;
+    }
+
+
+    .skills-progress-div p{
+      
+       text-align: center;
+       margin:0 auto;
+       
+    }
+ 
+    .main-div.footer{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-div.footer .img-div{
+        justify-content: space-around;
+    }
+
+    .copyText{
+        color:white;
+    }
+
+    .copyText span{
+       font-weight: bold;
+    }
+
+    #contact{
+         background-color: #234169;
+    }
+
+    .contact-text{
+        color:white;
+        margin-bottom: 10px;
+        line-height: 40px;
+    }
+
+    .contact-text img{
+        width:35px;
+        height:35px;
+        border-radius:50%;
+    }
+
+    .main-div.contact .contact-text a{
+        text-decoration: none;
+        color:white;
+    }
+
+    .gmail,.phone{
+        display:flex;
+        align-items: center;
+    }
+    .gmail a,.phone a{
+        margin-left:20px;
+    }
+
+    .xxl{
+        font-size:34px;
+    }
+
+    .xl{
+        font-size:30px;
+    }
+
+
+    .md{
+        font-size:26px;
+    }
+
+
+    .sm{
+        font-size:22px;
+    }
+
+    .xs{
+        font-size:18px;
+    }
+
+ .xxs{
+font-size:16px;
+}
+.link-name{
+    font-weight:bold;
+}
+
+
+.img-div img:hover,.contact-text img:hover,.about-left-div img:hover{
+    transform: scale(0.8);
+    transition: all 270ms ease-in;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main-div.home,.main-div.about,.main-div.resume,.main-div.contact{
+    padding:100px 30px!important;
+}
+
+
+@media screen and (max-width:767px){
+
+    .small-screen{
+        display: block;
+    }
+
+    .main-full-width.header.large-screen{
+    display: none;
+    }
+
+
+    .resume-right-side-div .box-div{
+        border-image: linear-gradient( #860052 , #1c724a);
+        border-image-slice: 1;
+        }
+        .header-ul{
+            margin: 50px 0px;
+
+        align-items: flex-start;
+        flex-direction: column;
+        }
+        .three-line::after{
+            content: '\f0c9';
+        }
+        .small-screen .main-div  img{
+            position:absolute;
+            right:50px;
+               width:60px;
+               height:60px;
+               border-radius:50%;
+        }
+
+        .small-screen .main-div{
+            padding:20px 50px!important;
+        }
+
+        .main-full-width.header.small-screen {
+            min-height:100px;
+        }
+        .img-div img{
+            width:130px;
+            height:130px;
+        }
+        .img-div{
+            flex-wrap: wrap!important;
+        }
+        .about-left-div{
+            display: flex;
+          }
+
+        .main-div.about, .main-div.experience,.about-left-div,.main-div.education,.main-div.projects,
+        .main-div.skills,.main-div.footer{
+            flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        }
+        
+        
+        .about-left-div,.about-right-div, .resume-left-side-div,.resume-right-side-div,.footer-left-div,
+        .footer-right-div{
+            width:100%;
+            margin:unset;
+        }
+        
+        .resume-right-side-div .box-div, .main-div.skills .resume-right-side-div{
+            margin: unset;
+            margin-top:80px;
+        }
+       
+        .about-me-heading,.copyText{
+            text-align: center;
+        }
+        .about-me-heading{
+            margin-top:30px;
+        }
+        .contact-text.gmail{
+            word-break: break-all;
+        }
+        .skills-progress-div p{
+            margin-right:10px;
+        }
+
+        .footer-right-div .main-div{
+            padding:unset!important;
+        }
+}
+       
+
+
