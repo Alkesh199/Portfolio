@@ -1,11 +1,11 @@
 export const basic_info = {
     name:"Alkesh Kumar",
     designation:"Software Engineer",
-    short_desc:"Currently working as a Aem content author. Can author the pages based on design document. Apart from that Build websites, designs applications and ensures overall user accessibility. Monitored and improved front-end performance and documented application changes & working on updates. Latest user-facing features using React.js and building reusable components for future use. Optimized components for maximum performance across a vast array of web-capable. I am having good knowledge of Aem, HTML, CSS, JAVASCRIPT, Core Java, React.js."
+    short_desc:"Currently working as a Aem content author. Can author the pages based on design document. Apart from that i can Build websites, and ensures overall user accessibility. Monitored and improved front-end performance and documented application changes & working on updates. Latest user-facing features using React.js and building reusable components for future use. Optimized components for maximum performance across a vast array of web-capable. I am having good knowledge of Aem, HTML, CSS, JAVASCRIPT, Core Java, React.js."
 }
 
 export const about_me = {
-    description:"I am working from last 2.5 years as a Frontend developer Using AEM 6.5. From Last 1 years , I have been active working on ReactJs development. I have completed B.E in Computer Science from Sant Longowal Institute of Engineering and Technology. I believe that Great things happen to those who don't stop believing, trying, learning, and being grateful.",
+    description:"I am working from last 2.5 years as a Frontend developer Using AEM 6.5. From Last 1 year , I have been active working on ReactJs development. I have completed B.E in Computer Science from Sant Longowal Institute of Engineering and Technology. I believe that Great things happen to those who don't stop believing, trying, learning, and being grateful.",
 }
 
 export const urls ={
@@ -98,7 +98,7 @@ export const PERSONAL_PROJECT = [{
             p_desc:"This is a cryptograpy project, where my key responsibilty is to write code in java to encrypt and decrypt text based on selected method, here we have implemented logic for technicq like : Caesar Cipher, Columnar Transposition Cipher, Rail Fence Cipher, Vigenère Cipher, Playfair Cipher, RSA algorithm, etc.",
         },
         {
-            p_name:"Food Villa ( Highly Optimizedand Fast Loading Food Ordering App )",
+            p_name:"Food Villa (Currently Working : Highly Optimizedand Fast Loading Food Ordering App )",
             p_desc:"I have built a React App which is large scale and highly performant app. created custom Shimmer UI Component for good UI Experience. Powered up the Data Layer using Swiggy's Public Live api. Implemented Lazy Loading/bundle Chunckingfor fast loading of app. Used React-Redux for Managing the Sate and fast updates.",
             link:[
                 {
