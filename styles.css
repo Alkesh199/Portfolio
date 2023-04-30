@@ -365,9 +365,11 @@ html{
         .main-full-width.header.small-screen {
             min-height:80px;
         }
-        .img-div img{
-            width: 80px;
-            height: 80px;
+
+        
+        .footer-right-div .img-div img{
+            width: 70px;
+            height: 70px;
             padding: 10px;
             margin: 10px;
         }
