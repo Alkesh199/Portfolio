@@ -119,11 +119,11 @@ export const PERSONAL_PROJECT = [{
             {
           
             link_name:"github",
-            link_url:"zzz"
+            link_url:"https://github.com/Alkesh199/Portfolio",
         },
         {
-            link_name:"versal app",
-            link_url:"zzz"
+            link_name:"Live Demo",
+            link_url:"https://portfolio-alkesh.vercel.app/",
         }]
         },
 ];
