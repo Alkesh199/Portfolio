@@ -321,7 +321,7 @@ html{
     padding:100px 30px!important;
 }
 
-
+@supports (display: flex) {
 @media all and (max-width:767px){
 
     .small-screen{
@@ -447,6 +447,6 @@ html{
     font-size:14px;
     }
 }
-       
+}    
 
 
