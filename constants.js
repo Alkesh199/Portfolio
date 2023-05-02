@@ -95,10 +95,10 @@ export const SKILLS = [
 
 export const PERSONAL_PROJECT = [{
              p_name:"Encryption and Decryption of text",
-            p_desc:"This is a cryptograpy project, where my key responsibilty is to write code in java to encrypt and decrypt text based on selected method, here we have implemented logic for technicq like : Caesar Cipher, Columnar Transposition Cipher, Rail Fence Cipher, Vigenère Cipher, Playfair Cipher, RSA algorithm, etc.",
+            p_desc:"This is a cryptography project, where my key responsibility is to write code in java to encrypt and decrypt text based on selected method, here we have implemented logic for technics like : Caesar Cipher, Columnar Transposition Cipher, Rail Fence Cipher, Vigenère Cipher, Playfair Cipher, RSA algorithm, etc.",
         },
         {
-            p_name:"Food Villa (Currently Working : Highly Optimizedand Fast Loading Food Ordering App )",
+            p_name:"Food Villa (Currently Working : Highly Optimized and Fast Loading Food Ordering App )",
             p_desc:"I have built a React App which is large scale and highly performant app. created custom Shimmer UI Component for good UI Experience. Powered up the Data Layer using Swiggy's Public Live api. Implemented Lazy Loading/bundle Chunckingfor fast loading of app. Used React-Redux for Managing the Sate and fast updates.",
             link:[
                 {
@@ -114,7 +114,7 @@ export const PERSONAL_PROJECT = [{
 
         {
         p_name:"Personal Portfolio Website",
-        p_desc:"It is fully optimized, 100% responsive and created by resuable component. can be use as sample website to other, all the related data is coming from one centeralized file. Build using React.js and css and javascript.",
+        p_desc:"It is fully optimized, 100% responsive and created by reusable component. can be use as sample website to other, all the related data is coming from one centralized file. Build using React.js and css and javascript.",
         link:[
             {
           
