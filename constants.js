@@ -99,15 +99,17 @@ export const PERSONAL_PROJECT = [{
         },
         {
             p_name:"Food Villa (Currently Working : Highly Optimized and Fast Loading Food Ordering App )",
-            p_desc:"I have built a React App which is large scale and highly performant app. created custom Shimmer UI Component for good UI Experience. Powered up the Data Layer using Swiggy's Public Live api. Implemented Lazy Loading/bundle Chunckingfor fast loading of app. Used React-Redux for Managing the Sate and fast updates.",
+            p_desc:"I have built a React App which is large scale and highly performant app. created custom Shimmer UI Component for good UI Experience. Powered up the Data Layer using Swiggy's Public Live api. Implemented Lazy Loading/bundle Chuncking for fast loading of app. Used React-Redux for Managing the Sate and fast updates.Implemented Test cases using JEST.",
             link:[
                 {
               
                 link_name:"github",
-                link_url:"https://github.com/Alkesh199/React/tree/master/day10",
+                link_url:"https://github.com/Alkesh199/FoodVilla",
             },
             {
-                
+               
+                link_name:"Live Demo",
+                link_url:" https://foodvilla1.netlify.app/",
             }
         ]
         },
