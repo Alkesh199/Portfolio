@@ -109,7 +109,7 @@ export const PERSONAL_PROJECT = [{
             {
                
                 link_name:"Live Demo",
-                link_url:" https://foodvilla1.netlify.app/",
+                link_url:" https://food-villa-alkesh199.vercel.app/",
             }
         ]
         },
